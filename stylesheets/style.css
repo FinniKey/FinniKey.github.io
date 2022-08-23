@@ -5,6 +5,7 @@
 h1 {
     font-family: 'Raleway', sans-serif;
     font-size: 100px;
+    margin: 1vh 0 1vh 0;
 }
 
 h2 {
@@ -44,7 +45,8 @@ nav ul li a {
 
 nav ul li a:hover {
     transform: scale(1.1);
-    color: #e76f51;
+    color: #D7431D;
+    font-weight: bold;
 }
 
 
@@ -69,6 +71,8 @@ footer {
     left: 0;
     width: 100vw;
     padding: 0.1em;
+    box-shadow: 0px 3px 20px 0px #000000;
+    font-size: 2vh;
 }
 
 /*Text Elements ***************************************************/
@@ -76,3 +80,34 @@ footer {
 a {
     color: #e76f51;
 }
+
+/*Cells ***********************************************************/
+
+.cell-container {
+    display: flex;
+    flex-flow: wrap;
+
+}
+
+.cell {
+    background-color: #2a9d8f;
+    border-radius: 10px;
+    padding: 10px;
+    margin: 1vh auto 1vh auto;
+    box-shadow: 0px 0px 10px 3px rgba(0,0,0,0.5);
+}
+
+.cell:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 30px 1px rgba(0,0,0,0.5);
+    transition: all 0.2s;
+}
+
+.cell h1 {
+    font-size: 30px;
+    width: 25vw;
+    margin: 0;
+}
+
+/*Phone ***********************************************************/
+
